@@ -6,6 +6,7 @@ In this project we sought to design short (20-30 residue) peptide sequences that
 ## Instructions
 
 **Note:** *Our implementation of RFDiffusion and ProteinMPNN was forked from dlbinderdesign, developed nrbennet*
+
 Currently all scripts available are for RFDiffusion > ProteinMPNN > AF2 pathway. These scripts are used to do various tasks, such as submitting jobs, creating sub-sets based on score ranges, and data analysis. Additionally, I have uploaded a version of the ProteinMPNN script that I have modified to return a CSV file with ProteinMPNN scores. 
 
 ## Current Results:
