@@ -29,3 +29,18 @@ Here is a brief overview of each script:
 <img width="890" alt="Screenshot 2024-10-24 at 3 32 50 PM" src="https://github.com/user-attachments/assets/cbac05e0-c26a-4eb8-8433-647e2e7833df">
 
   * Spearman correlation indicates that there is no significant trend amongst this data, therefore we concluded that pae_interaction and proteinMPNN score have no relationship.
+
+## Acknowledgments
+
+### People
+* Sam Lobo
+* Andrew Longhini
+  
+### Labs
+* [Kosik Lab](https://ken-kosik.mcdb.ucsb.edu)
+* [Shea Group](https://labs.chem.ucsb.edu/shea/joan-emma/)
+* [Shell Lab](https://theshelllab.org)
+  
+### Resources and Publications
+* [UCSB CNSI](https://www.cnsi.ucsb.edu) - Computing Resources
+
