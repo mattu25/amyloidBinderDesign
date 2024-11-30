@@ -3,7 +3,7 @@
 ## Introduction and Background
 In this project we sought to design short (20-30 residue) peptide sequences that bind amyloids with high affinity. These sequences are to be put onto protein-like-polymers (PLP)s to enhance binding affinity. To do this, we sought to compare various structure and sequence design tools. 
 
-*This project is a work in progress and there are many more experiments we want to run*
+*This project is a work in progress and we are in the process of running experiments to test ESM3 and ESM-IF*
 
 ## Instructions
 
@@ -22,7 +22,7 @@ Here is a brief overview of each script:
 
 ## Current Results:
 
-** We are currently working on finaizing our results for temperature, however it seems raising tempearature for proteinMPNN does not have any positive impact on results**
+**We are currently working on finaizing our results for temperature, however it seems raising tempearature for proteinMPNN does not have any positive impact on results**
 
 1. Protein MPNN score is not a predictor of AF2 pae_interaction score:
 <img width="890" alt="Screenshot 2024-10-24 at 3 32 50 PM" src="https://github.com/user-attachments/assets/cbac05e0-c26a-4eb8-8433-647e2e7833df">
