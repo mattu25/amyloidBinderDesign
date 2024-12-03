@@ -2,7 +2,7 @@ import os
 import subprocess as sp
 import numpy as np
 
-parentDir='/home/maunger/dl_binder_design-main/scripts/temperatureTests2024_11_9'
+parentDir=''
 
 pdbDir = os.path.join(parentDir, "testPDB")
 mainOutputDir = os.path.join(parentDir, "temperatureExperiment") 
@@ -38,7 +38,7 @@ for temp in tempValues:
 #SBATCH --gres=gpu:1  
 #SBATCH --time=02:00:00
 #SBATCH --job-name=MPNN
-#SBATCH --mail-user="matthew_unger@lifesci.ucsb.edu"
+#SBATCH --mail-user=""
 #SBATCH --mail-type=FAIL
 
 python3 ~/dl_binder_design-main/mpnn_fr/dl_interface_design.py -outputScores {scoreCSV} -pdbdir {localPDB} -relax_cycles 0 -seqs_per_struct 100 -checkpoint_path /home/maunger/dl_binder_design-main/mpnn_fr/ProteinMPNN/soluble_model_weights/v_48_020.pt -temperature {float(temp)} -outpdbdir {outputDir} 
