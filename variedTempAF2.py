@@ -1,7 +1,7 @@
 import os
 import subprocess as sp
 
-parentDir='/home/maunger/dl_binder_design-main/scripts/temperatureTests2024_11_9'
+parentDir=''
 
 mainSubDir = os.path.join(parentDir,"temperatureExperiment")
 
@@ -18,7 +18,7 @@ for file in os.listdir(mainSubDir):
 #SBATCH --gres=gpu:1    
 #SBATCH --time=5:00:00
 #SBATCH --job-name=AF2
-#SBATCH --mail-user="matthew_unger@lifesci.ucsb.edu"
+#SBATCH --mail-user=""
 #SBATCH --mail-type=FAIL
 
 mkdir experiment2_af2Scores
