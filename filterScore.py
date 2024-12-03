@@ -52,7 +52,7 @@ def writeLog():
 ###########################################
 
 #Define basic variables and load data 
-mainDir = "/home/maunger/dl_binder_design-main/scripts/optimization2024_10_23"
+mainDir = ""
 data = pd.read_csv("scores.csv")
 
 #Create subsets of the data for different score ranges
